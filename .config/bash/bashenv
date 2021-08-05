@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export EDITOR="nvim"
+
+export PATH="$PATH:$HOME/.local/bin"
+
+# Cleanup
+export LESSHISTFILE="-"
+export HISTFILE="$HOME/.history/.bash_history"
+export XDG_DESKTOP_DIR="$HOME/.local"
